@@ -9,6 +9,8 @@ lib.lovedebug = require("lib.lovedebug")
 lib.tween = require("lib.tween")
 lib.audio = require("lib.wave")
 
+lib.class = require("lib.middleclass")
+
 function lib.update(dt)
   lib.lovebird.update()
 end
